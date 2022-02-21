@@ -1,0 +1,1 @@
+gtkwave fractal_screen_gen_tb.ghw

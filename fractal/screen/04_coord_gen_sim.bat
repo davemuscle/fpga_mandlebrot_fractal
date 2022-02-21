@@ -1,0 +1,1 @@
+gtkwave fractal_coord_gen_tb.ghw

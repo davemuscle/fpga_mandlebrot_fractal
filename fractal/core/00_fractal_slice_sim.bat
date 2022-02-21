@@ -1,0 +1,1 @@
+gtkwave fractal_slice_tb.ghw

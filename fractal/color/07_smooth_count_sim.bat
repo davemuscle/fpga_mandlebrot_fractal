@@ -1,0 +1,1 @@
+gtkwave fractal_smooth_count_tb.ghw

@@ -1,0 +1,1 @@
+gtkwave -o -F video_deinterlacer_tb.vcd

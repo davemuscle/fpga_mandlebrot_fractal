@@ -1,0 +1,1 @@
+gtkwave fractal_top_tb.ghw

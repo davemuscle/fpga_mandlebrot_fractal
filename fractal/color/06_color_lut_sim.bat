@@ -1,0 +1,1 @@
+gtkwave fractal_color_lut_tb.ghw
