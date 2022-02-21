@@ -194,18 +194,18 @@ A lot of my timing analysis went here as well. I needed the fractal slice to ope
 The output of the fractal core are discrete iteration numbers: 1, 2, ... 79, 80, etc. This can
 result in unappealing color bands later on when applying a color LUT:
 
-<p align="center">No Smoothing: 80 Max Iterations, Escape Radius=4</p>
-
-![Image](/doc/nosmoothing_80iter_4escape.png)
+| *No Smoothing: 80 Max Iterations, Escape Radius=4* |
+| :--: |
+| ![Image](/doc/nosmoothing_80iter_4escape.png) |
 
 By applying a logarithmic smoothing equation, increasing the escape radius, and scaling the amount
 of colors, we can get rid of the color bands. In the image below, there are 10 times the amount of
 colors used compared to the previous image. I did not come up with the equation, so check the
 references if you're interested in it.
 
-<p align="center">With Smoothing: 80 Max Iterations, Escape Radius=40</p>
-
-![Image](/doc/smoothing_80iter_40escape.png)
+| *With Smoothing: 80 Max Iterations, Escape Radius=40* |
+| :--: |
+| ![Image](/doc/smoothing_80iter_40escape.png) |
 
 #### Video Blanking Extender
 
@@ -263,8 +263,6 @@ to make a great fractal project. At the start of April I ordered a $100 FPGA fro
 via Aliexpress, and after three months of shipping I was able to finally use it. On paper it was a
 great board: a lot of GPIO, HDMI, ethernet, and a relatively big FPGA (Artix-7, 60K LUTs) with a
 decent speed grade. 
-
-<p align="center">Bad FPGA Board</p>
 
 ![Image](/doc/UneducatedDesigner.jpg)
 
