@@ -93,9 +93,9 @@ bailout radius R. Because Z and C are complex numbers, the complex square needs 
 be represented in hardware.
 
 <p align="center" class="font-weight-bold">Z<sub>n+1</sub> = Z<sub>n</sub><sup>2</sup> + C, while Z &lt; R&nbsp;</p>
-<p align="center">Z = a + j\*b, C = x + j\*y</p>
-<p align="center">Z<sup>2</sup> = (a + j\*b)\*(a + j\*b)<br>Z<sup>2</sup> = a<sup>2</sup> + 2\*j\*a\*b -b<sup>2</sup><br></p>
-<p align="center">Z<sub>n+1</sub> = a<sup>2</sup> - b<sup>2</sup> + x + j(2\*a\*b + y)</p>
+<p align="center">Z = a + j*b, C = x + j*y</p>
+<p align="center">Z<sup>2</sup> = (a + j*b)*(a + j*b)<br>Z<sup>2</sup> = a<sup>2</sup> + 2*j*a*b -b<sup>2</sup><br></p>
+<p align="center">Z<sub>n+1</sub> = a<sup>2</sup> - b<sup>2</sup> + x + j(2*a*b + y)</p>
 
 With this reduction, we can see that the main calculation requies 3 multiplies, 3 additions (one
 subtraction), and a comparison. We also want to compute the magnitude of Z, so we can compare it
