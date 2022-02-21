@@ -127,7 +127,7 @@ Mandlebrot calculation. For the diagram below:
 - The fractal math data is then either converted back to the slower pixel clock domain and passed
 out of the core via the right-sided flow control, or it is looped back to the start of the slice
 pipeline
-    - This loopback feature works when F max is an integer multiple of the pixel clock. For a ratio of 3, we can send the same coordinate through the pipeline three times: tripling the amount of iterations the core can achieve without increasing the amount of hardware required.
+    - This loopback feature works when F<sub>max</sub> is an integer multiple of the pixel clock. For a ratio of 3, we can send the same coordinate through the pipeline three times: tripling the amount of iterations the core can achieve without increasing the amount of hardware required.
 
 ![Image](/doc/core_concept.png)
 
