@@ -60,8 +60,8 @@ Notice the detail in the images below for the same portion of the Mandlebrot set
 maximum iterations. The center coordinate for the images was -1.42 + 0j, the vertical width was
 0.28, and the horizontal width was 1.00
 
-| Bailout = 20 | Bailout = 40     | Bailout = 200 |
-| ----------------------------- | ----------------------------- |
+| Bailout = 20               | Bailout = 40               | Bailout = 200               |
+| -------------------------- | -------------------------- | --------------------------- |
 | ![Image](/doc/20_iter.png) | ![Image](/doc/40_iter.png) | ![Image](/doc/200_iter.png) |
 
 ### Learning Goals
